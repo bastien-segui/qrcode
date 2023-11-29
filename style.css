@@ -1,0 +1,57 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+body {
+    background-color:hsl(212, 45%, 89%);
+    font-family:"Outfit";
+}
+
+#main-container, #cart-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#main-container {
+    height:100vh;
+}
+
+#card-container {
+    width:330px;
+    border-radius:15px;
+    height:80%;
+    background-color:hsl(0, 0%, 100%);
+}
+
+#sub-container {
+    padding:5%;
+    height:100%;
+}
+
+#sub-container * {
+    margin-bottom:10px;
+}
+
+#qr-code {
+    width:100%;
+    border-radius:15px;
+}
+
+#text {
+    margin:10px;
+}
+
+#title {
+    font-weight:700;
+    font-size:25px;
+    color:hsl(218, 44%, 22%);
+}
+
+#instruction {
+    color:hsl(220, 15%, 55%);
+    font-size:15px;
+}
